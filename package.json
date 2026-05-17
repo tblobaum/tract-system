@@ -1,0 +1,34 @@
+{
+  "name": "tract-system",
+  "version": "1.0.0",
+  "description": "TRACT() → NOW → RETURN → TRACT()",
+  "main": "index.js",
+  "bin": {
+    "tract": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js run",
+    "daemon": "node cli.js daemon",
+    "test": "node cli.js run"
+  },
+  "keywords": [
+    "tract",
+    "system",
+    "cli",
+    "daemon",
+    "threads",
+    "cycle",
+    "wordpress"
+  ],
+  "author": "Thomas J Blobaum",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
+    "readline-sync": "^1.4.10",
+    "ws": "^8.18.0"
+  }
+}
